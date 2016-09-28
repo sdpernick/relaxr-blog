@@ -1,0 +1,292 @@
+/* Box Model */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/*Group 1*/
+.inner-wrapper {
+   width: 100%;
+   height: 100%;
+}
+
+#container {
+   column-width: 700px;
+   margin: 0 120px;
+   outline-color: #606161;
+   background-color: white;
+}
+
+header {
+	 background-color: #033048;
+	 overflow: hidden;
+	 padding: 20px;
+}
+
+body {
+	background-color: #f0efef;
+}
+
+.relaxr {
+   font-weight: 600;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 36px;
+   color: white;
+   width: 20%;
+   float: left;
+   text-decoration: none;
+}
+
+.nav-container {
+	width: 70%;
+	float: right;
+	color: #f9e42e;
+	height: 10px;
+
+}
+
+
+.li1 {
+	float: right;
+	padding-left: 50px;
+	padding-right: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 5px 0;
+	display: inline;
+}
+
+#section1 {
+    width: 68%;
+    float: left;
+    display: block;
+}
+
+
+/*Aside*/
+
+aside {
+	float: right;
+}
+
+.categories {
+	float: right;
+	display: block;
+	color: #033048;
+	width: 25%;
+    height: 40px;
+    padding-bottom: 20px;
+}
+
+.li2 {
+	list-style-type: none;
+	font-size: 24px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	display: block;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    color: #033048;
+    float: right;
+} 
+
+.google1 {
+	float: right;
+	font-size: 24px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	padding-bottom: 30px;
+	padding-top: 28px;
+}
+
+#about {
+	float: right;
+	display: block;
+	height: 500px;
+}
+
+.about-relaxr{
+	float: right;
+	font-size: 24px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	display: block;
+	width: 20%;
+}
+
+#ad {
+	float: right;
+	display: block;
+	padding-top: 40px;
+}
+
+
+/*Group 2*/
+#hello {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 10px;
+}
+
+.heading1 {
+	padding-top: 60px;
+}
+
+.heading2 {
+	padding-top: 20px;
+}
+
+.p1 {
+	font-size: 24px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 40px;
+
+}
+
+.p2 {
+	font-size: 24px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 40px;
+}
+
+.google2 {
+	float: right;
+	font-size: 24px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	padding-bottom: 30px;
+	padding-top: 28px;
+}
+
+hr {
+	clear: both;
+}
+
+#section2 {
+	width: 68%;
+	float: left;
+	display: block;
+}
+
+#hello2 {
+	font-size: 40px;
+}
+
+
+
+a.google1:visited {
+	color: purple;
+}
+
+a.google2:visited {
+	color: purple;
+}
+
+.clearfix::after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	padding-bottom: 80px;
+}
+
+#everythingbut {
+	padding-right: 20px;
+	padding-left: 20px;
+	background color: #f0efef;
+}
+
+/*Group 3*/
+#section3 {
+	background-color: #f9e42e;
+	clear: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.sign {
+	font-size: 24px;
+	font-weight: 800;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	background-color: #033048;
+	width: 20%;
+	height: 40px;
+	text-align: center;
+	margin: 30px auto 30px;
+	padding-top: 5px;
+}
+
+
+
+
+/*Footer*/
+footer {
+	clear: both;
+	background-color: #121212;
+	padding-bottom: 20px;
+	padding-top: 50px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.feet {
+   font-weight: 600;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 36px;
+   color: #f9e42e;
+   padding-bottom: 40px;
+}
+
+
+.twitter {
+	padding-bottom: 50px;
+	padding-top: 20px;
+	padding-right: 40px;
+}
+
+.facebook {
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+
+
+.copy {
+	font-size: 18px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	padding-top: 40px;	
+}
+
+
+
+
+
+
+
