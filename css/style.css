@@ -121,9 +121,8 @@ h3 {
 	float: right;
 	color: #033048;
 	width: 20%;
-    height: 40px;
     padding-bottom: 20px;
-
+    margin: 20px;
 }
 
 .ab-relaxr {
@@ -142,6 +141,7 @@ h4 {
 #ad {
 	display: block;
 	float: right;
+	width: auto;
 }
 
 /*Group 2*/
