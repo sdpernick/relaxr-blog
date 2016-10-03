@@ -15,6 +15,12 @@
   height: 0;
 }
 
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
 /*Group 1*/
 .inner-wrapper {
    width: 100%;
@@ -56,6 +62,10 @@ body {
 
 }
 
+.main-section {
+	width: 68%;
+	float: left;
+}
 
 .li1 {
 	float: right;
@@ -66,12 +76,6 @@ body {
 	font-weight: 600;
 	margin: 5px 0;
 	display: inline;
-}
-
-#section1 {
-    width: 68%;
-    float: left;
-    display: block;
 }
 
 .google1 {
@@ -87,15 +91,14 @@ body {
 /*Aside*/
 
 #aside {
+	width: 32%;
 	float: right;
 }
 
 .categories {
-	float: right;
 	display: block;
 	color: #033048;
 	width: auto;
-    height: 40px;
     padding-bottom: 20px;
     padding-top: 50px;
     padding-right: 100px;
@@ -118,7 +121,6 @@ h3 {
 } 
 
 .a-relaxr {
-	float: right;
 	color: #033048;
 	width: 20%;
     padding-bottom: 20px;
@@ -140,7 +142,6 @@ h4 {
 
 #ad {
 	display: block;
-	float: right;
 	width: auto;
 }
 
@@ -193,12 +194,6 @@ h2 {
 
 hr {
 	clear: both;
-}
-
-#section2 {
-	width: 68%;
-	float: left;
-	display: block;
 }
 
 #hello2 {
@@ -297,7 +292,9 @@ footer {
 	list-style-type: none;	
 }
 
-
+#ad {
+	width: 80%;
+}
 
 
 
