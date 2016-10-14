@@ -15,7 +15,7 @@
   height: 0;
 }
 
-img {
+.main-section img {
 	display: block;
 	width: 100%;
 	height: auto;
@@ -29,9 +29,9 @@ img {
 
 #container {
    column-width: 700px;
-   border-left: 120px solid #606161;
-   border-right: 120px solid #606161;
-   background-color: #f0efef;
+   margin: 0 120px;
+   outline-color: #606161;
+   background-color: white;
 }
 
 header {
@@ -52,10 +52,11 @@ body {
    width: 20%;
    float: left;
    text-decoration: none;
+   padding-left: 40px;
 }
 
 .nav-container {
-	width: 70%;
+	width: 68%;
 	float: right;
 	color: #f9e42e;
 	height: 10px;
@@ -65,17 +66,17 @@ body {
 .main-section {
 	width: 68%;
 	float: left;
+	padding: 10px;
 }
 
 .li1 {
-	float: right;
-	padding-left: 50px;
-	padding-right: 10px;
+	float: left;
+	padding-left: 40px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 24px;
 	font-weight: 600;
-	margin: 5px 0;
-	display: inline;
+	margin: 5px 0px 5px 10px;
+	list-style: none;
 }
 
 .google1 {
@@ -83,14 +84,13 @@ body {
 	font-size: 24px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
-	padding-bottom: 30px;
-	padding-top: 20px;
+	padding: 10px;
 }
 
 
 /*Aside*/
 
-#aside {
+aside {
 	width: 32%;
 	float: right;
 }
@@ -99,9 +99,7 @@ body {
 	display: block;
 	color: #033048;
 	width: auto;
-    padding-bottom: 20px;
-    padding-top: 50px;
-    padding-right: 100px;
+    padding: 50px 100px 20px 20px;
 }
 
 .li2 {
@@ -109,7 +107,6 @@ body {
 	font-size: 24px;
 	font-weight: 300;
 	font-family: 'Open Sans', sans-serif;
-	display: block;
 }
 
 h3 {
@@ -122,7 +119,7 @@ h3 {
 
 .a-relaxr {
 	color: #033048;
-	width: 20%;
+	width: auto;
     padding-bottom: 20px;
     margin: 20px;
 }
@@ -142,7 +139,7 @@ h4 {
 
 #ad {
 	display: block;
-	width: auto;
+	border: 1px black solid;
 }
 
 /*Group 2*/
@@ -155,6 +152,7 @@ h2 {
 	font-weight: 600;
 	font-family: 'Open Sans', sans-serif;
 	padding-bottom: 10px;
+	padding-top: 20px;
 	color: #033048;
 }
 
@@ -188,8 +186,7 @@ h2 {
 	font-size: 24px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
-	padding-bottom: 30px;
-	padding-top: 20px;
+	padding:10px;
 }
 
 hr {
@@ -231,6 +228,7 @@ a.google2:visited {
 	clear: left;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	text-align: center;
 
 }
 
@@ -240,11 +238,10 @@ a.google2:visited {
 	font-family: 'Open Sans', sans-serif;
 	color: white;
 	background-color: #033048;
-	width: 20%;
-	height: 40px;
+	width: auto;
 	text-align: center;
 	margin: 30px auto 30px;
-	padding-top: 5px;
+	padding: 5px 40px 5px;
 }
 
 
